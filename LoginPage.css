@@ -1,0 +1,120 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg);
+    height: fit-content;
+}
+.heading_left i{
+    color: #7e9a9a !important;
+    position: absolute;
+    top: 10px;
+    left: 46%;
+   }
+   .heading_left h1{
+       font-size: 20px;
+       font-weight: 500;
+       color: #7e9a9a;
+      margin-left: 48%;
+       cursor: pointer;
+       margin-top: 0;
+   }
+.signin_top{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+   
+}
+.signin_header{
+  display: flex;
+  justify-content: center;
+    margin-top: 2%;
+    margin-left: 23px;
+  
+
+}
+.signin_body{
+   
+    margin-top: 2%;
+border: 2px solid rgb(139, 193, 200);
+border-radius: 30px;
+   width: 30%;
+   padding: 5%;
+margin-left: 33%;
+
+
+
+}
+.signin_content input{
+    border: none;
+   height:3rem ; 
+   width: 100%;
+
+margin-bottom: 1rem;
+border-radius: 15px;
+border: 1px solid grey;
+
+}
+.signin_content input::placeholder{
+    font-size:0.7rem ;
+   
+   
+}
+.signin_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 2%;
+
+}
+.signin_footer a{
+    margin-left: 60px;
+}
+
+.signin_content{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1px;
+}
+
+.sininbox_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.sininbox_footer input{
+    border: none;
+    margin-top: 13px;
+}
+.signin_btn{
+    background-color:  rgb(139, 193, 200, 0.75);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.signin_btn:hover{
+    background-color: rgb(75, 74, 68,0.8);
+    color: #fbe8e8;
+}
+/* li {list-style-type: none;
+    font-size: 16pt;
+    }
+    .mail {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 800px;
+    background : rgb(153, 198, 211);
+    border: 1px soild rgb(1, 20, 24);
+    }
+    .mail h2 {
+    margin-left: 38px;
+    }
+    input {
+    font-size: 20pt;
+    }
+    input:focus, textarea:focus{
+    background-color: lightyellow;
+    }
+    input submit {
+        font-size: 10pt;
+} */
